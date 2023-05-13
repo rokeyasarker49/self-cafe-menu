@@ -1,0 +1,56 @@
+body{
+    background-image: url(../img/desktop-wallpaper-coffee-full-and-background-turkish-coffee.jpg);
+}
+h4{
+    font-style: italic;
+}
+main {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: burlywood ;
+    padding: 50px 50px;
+    height: 80%;
+    width: 85%;
+}
+hr{
+    height: 3px;
+    background-color: brown;
+    border-color: brown;
+    padding: auto;
+    margin: 8px 8px;
+}
+h1, h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.flavour, .sweet {
+    font-size: 25px;
+    width: 50%;
+    text-align: left;
+}
+.price {
+    font-size: 25px;
+    width: 50%;
+    text-align: right;
+    
+}
+a:visited {
+    color: rgba(140, 0, 255, 0.514);
+}
+a:hover {
+    color: bisque;
+}
+a:active{
+    color: blanchedalmond;
+}
+p {
+    display: inline-block;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}

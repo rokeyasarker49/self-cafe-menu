@@ -54,3 +54,61 @@ h1 {
 h2 {
     font-size: 30px;
 }
+
+@media only screen and (max-width: 480px) {
+    main {
+        height: 80%;
+        width: 450px;
+    }
+    .flavour, .sweet{
+        font-size: 20px;
+    }
+    .price {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 10px;
+    }
+   
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    
+    main {
+        width: 755px;
+    }
+    
+    .flavour, .sweet {
+        font-size: 25px;
+    }
+    .price {
+        font-size: 25px;
+        
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+    main {
+        width: 1110px;
+    }
+    
+    .flavour, .sweet {
+        font-size: 25px;
+
+    }
+    .price {
+        font-size: 25px;
+    }
+    
+}

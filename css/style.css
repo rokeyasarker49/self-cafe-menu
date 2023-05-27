@@ -10,7 +10,7 @@ main {
     margin-bottom: 50px;
     margin-right: 50px;
     margin-left: 50px;
-    background-color: #c58f47da ;
+    background-color: rgb(206, 166, 114);
     padding: 50px 50px;
     height: 80%;
     width: 85%;
@@ -56,9 +56,10 @@ h2 {
 }
 
 @media only screen and (max-width: 480px) {
+
     main {
-        height: 80%;
-        width: 450px;
+        width: 60%;
+       
     }
     .flavour, .sweet{
         font-size: 20px;
@@ -78,7 +79,7 @@ h2 {
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     
     main {
-        width: 755px;
+        width: 73%;
     }
     
     .flavour, .sweet {
@@ -100,7 +101,7 @@ h2 {
 
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
     main {
-        width: 1110px;
+        width: 84%;
     }
     
     .flavour, .sweet {
